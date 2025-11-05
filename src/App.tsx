@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import EducationComponent from './components/Education/Education';
 import { ThemeProvider } from './contexts/ThemeContext';
 import portfolioData from './data/portfolio.json';
 import type { PortfolioData } from './types/portfolio';
@@ -20,6 +21,7 @@ function App() {
           <About personal={data.personal} />
           <SkillsComponent skills={data.skills}/>
           <Experience experience={data.experience} />
+          <EducationComponent education={data.education} />
           <Projects projects={data.projects} />
           <Contact personal={data.personal} />
         </main>

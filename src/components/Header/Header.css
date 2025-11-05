@@ -54,22 +54,31 @@
   font-weight: 400;
 }
 
-.resume-btn {
-  padding: 10px 15px;
-  background: transparent;
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  color: var(--accent-color);
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.resume-btn:hover {
-  background: var(--accent-color-transparent);
-  transform: translate(-4px, -4px);
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--text-color-light);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 4px;
+}
+
+.social-link:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.social-link svg {
+  width: 20px;
+  height: 20px;
 }
 
 .theme-toggle {

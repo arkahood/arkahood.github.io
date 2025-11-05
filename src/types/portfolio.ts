@@ -2,12 +2,12 @@ export interface Personal {
   name: string;
   title: string;
   email: string;
-  phone: string;
   location: string;
   linkedin: string;
   github: string;
   website: string;
   bio: string;
+  leetcode: string
 }
 
 export interface Skills {
@@ -41,7 +41,7 @@ export interface Education {
   institution: string;
   degree: string;
   duration: string;
-  gpa: string;
+  cgpa: string;
 }
 
 export interface Certification {
@@ -57,5 +57,4 @@ export interface PortfolioData {
   experience: Experience[];
   projects: Project[];
   education: Education[];
-  certifications: Certification[];
 }

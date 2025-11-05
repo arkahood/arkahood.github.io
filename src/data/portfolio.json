@@ -7,7 +7,8 @@
     "linkedin": "https://www.linkedin.com/in/arkajit-choudhury-0bba671a5/",
     "github": "https://github.com/arkahood",
     "website": "https://arkahood.github.io/",
-    "bio": "Passionate full-stack developer with expertise in modern web technologies. I love creating scalable applications and solving complex problems with clean, efficient code."
+    "leetcode": "https://leetcode.com/u/arkahood/",
+    "bio": "Passionate Software Engineer. I love creating scalable applications and solving complex problems with clean, efficient code."
   },
   "skills": {
     "frontend": [
@@ -25,6 +26,7 @@
       "Node.js",
       "Nestjs",
       "JAVA",
+      "Spring Boot",
       "PostgreSQL",
       "MongoDB",
       "Redis",
@@ -35,112 +37,86 @@
       "Git",
       "Docker",
       "AWS",
-      "Vercel",
-      "GitHub Actions",
+      "GitHub",
       "DigitalOcean"
     ]
   },
   "experience": [
     {
       "id": 1,
-      "company": "Tech Innovations Inc.",
-      "position": "Senior Full Stack Developer",
-      "duration": "2022 - Present",
-      "location": "San Francisco, CA",
+      "company": "DigitalOcean",
+      "position": "Software Engineer II",
+      "duration": "Oct 2025 - Present",
+      "location": "Hyderabad",
       "description": [
-        "Led development of a React-based dashboard serving 10k+ users",
-        "Implemented microservices architecture reducing response time by 40%",
+        "Working in Network Services Team.",
+        "Working Primarily in Golang",
         "Mentored junior developers and conducted code reviews"
       ]
     },
     {
       "id": 2,
-      "company": "StartupXYZ",
-      "position": "Frontend Developer",
-      "duration": "2020 - 2022",
-      "location": "Remote",
+      "company": "Storable",
+      "position": "Software Engineer",
+      "duration": "May 2024 - Oct 2025",
+      "location": "Hyderabad",
       "description": [
-        "Built responsive web applications using React and TypeScript",
-        "Collaborated with design team to implement pixel-perfect UIs",
-        "Optimized application performance achieving 95+ Lighthouse scores"
+        "Improved API performance by over 85% (from 103ms to 15ms) by implementing parallel processing and query batching techniques, enhancing system responsiveness.",
+        "Developed a high-volume data migration script in Java to efficiently migrate and backfill over 10 million data rows across multiple tables with 100% data integrity.",
+        "Designed and implemented a robust mailing system to automatically notify over 20,000 users of new insurance policies, integrating with Postmark for reliable email delivery.",
+        "Engineered 5+ daily cron jobs for automated data extraction from facility management software, ensuring data consistency and availability for downstream analytics.",
+        "Implemented Elasticsearch to enable full-text search capabilities, reducing average query time by 95% and allowing for complex, text-based data retrieval."
       ]
     },
     {
       "id": 3,
-      "company": "Digital Solutions Co.",
-      "position": "Junior Developer",
-      "duration": "2019 - 2020",
-      "location": "New York, NY",
+      "company": "Epam Systems",
+      "position": "Junior Software Engineer",
+      "duration": "Jan 2022 - May 2024",
+      "location": "Remote",
       "description": [
-        "Developed and maintained WordPress websites for clients",
-        "Created custom plugins and themes",
-        "Provided technical support and training to clients"
+        "Developed and deployed over 15+ AWS Lambda functions to handle serverless backend logic, con-tributing to a 20% reduction in infrastructure costs.",
+        "Optimized the application’s search functionality, reducing API response times by 40% and significantly improving the intuitiveness and performance of the user experience.",
+        "Implemented universal deep linking in the mobile application, leading to a 15% increase in user retention by enabling direct access to in-app content from external sources."
       ]
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Stripe"],
-      "liveUrl": "https://ecommerce-demo.com",
-      "githubUrl": "https://github.com/arkahood/ecommerce-platform",
-      "image": "/projects/ecommerce.png",
+      "title": "RawHTTP",
+      "description": "A from-scratch HTTP/1.1 server implementation in Go, built directly on TCP sockets. Demonstrates low-level network programming concepts with raw TCP socket handling, HTTP message parsing, state machine-based request processing, and buffer management.",
+      "technologies": ["Go", "TCP Sockets", "HTTP/1.1", "Network Programming", "Concurrent Programming"],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/arkahood/RawHTTP",
+      "image": "/projects/rawhttp.png",
       "featured": true
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      "technologies": ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
-      "liveUrl": "https://taskmanager-demo.com",
-      "githubUrl": "https://github.com/arkahood/task-manager",
-      "image": "/projects/taskmanager.png",
-      "featured": true
-    },
-    {
-      "id": 3,
-      "title": "Weather Dashboard",
-      "description": "A responsive weather dashboard that displays current weather and forecasts for multiple cities with beautiful data visualizations.",
-      "technologies": ["React", "TypeScript", "Chart.js", "OpenWeather API"],
-      "liveUrl": "https://weather-dashboard-demo.com",
-      "githubUrl": "https://github.com/arkahood/weather-dashboard",
-      "image": "/projects/weather.png",
-      "featured": false
-    },
-    {
-      "id": 4,
       "title": "Portfolio Website",
       "description": "A responsive portfolio website built with React and TypeScript, featuring smooth animations and modern design principles.",
-      "technologies": ["React", "TypeScript", "CSS3", "Vite"],
-      "liveUrl": "https://arkajitchoudhury.github.io/arkajitchoudhury",
-      "githubUrl": "https://github.com/arkahood/arkajitchoudhury",
+      "technologies": ["React", "TypeScript", "CSS3", "Vite", "Github Pages"],
+      "liveUrl": "https://arkahood.github.io/",
+      "githubUrl": "https://github.com/arkahood/arkahood.github.io",
       "image": "/projects/portfolio.png",
-      "featured": false
+      "featured": true
     }
   ],
   "education": [
     {
       "id": 1,
-      "institution": "University of California, Berkeley",
-      "degree": "Bachelor of Science in Computer Science",
-      "duration": "2015 - 2019",
-      "gpa": "3.8/4.0"
-    }
-  ],
-  "certifications": [
-    {
-      "id": 1,
-      "name": "AWS Certified Solutions Architect",
-      "issuer": "Amazon Web Services",
-      "date": "2023"
+      "institution": "Kalyani Government Engineer College",
+      "degree": "Bachelor of Science in Information Technology",
+      "duration": "2018 - 2022",
+      "cgpa": "9.13/10"
     },
     {
-      "id": 2,
-      "name": "React Developer Certification",
-      "issuer": "Meta",
-      "date": "2022"
+      "id": 1,
+      "institution": "Delhi Public School, Ruby Park",
+      "degree": "Higher Secondary",
+      "duration": "2016 - 2018",
+      "cgpa": "95%"
     }
   ]
 }

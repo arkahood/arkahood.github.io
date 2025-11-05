@@ -1,0 +1,146 @@
+{
+  "personal": {
+    "name": "Arkajit Choudhury",
+    "title": "Full Stack Developer",
+    "email": "arkajitchoudhury54@gmail.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "India",
+    "linkedin": "https://linkedin.com/in/arkajitchoudhury",
+    "github": "https://github.com/arkahood",
+    "website": "https://arkajitchoudhury.dev",
+    "bio": "Passionate full-stack developer with expertise in modern web technologies. I love creating scalable applications and solving complex problems with clean, efficient code."
+  },
+  "skills": {
+    "frontend": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Next.js",
+      "Vue.js"
+    ],
+    "backend": [
+      "Node.js",
+      "Python",
+      "Express.js",
+      "FastAPI",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "GitHub Actions",
+      "Jest",
+      "Cypress"
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Innovations Inc.",
+      "position": "Senior Full Stack Developer",
+      "duration": "2022 - Present",
+      "location": "San Francisco, CA",
+      "description": [
+        "Led development of a React-based dashboard serving 10k+ users",
+        "Implemented microservices architecture reducing response time by 40%",
+        "Mentored junior developers and conducted code reviews"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "StartupXYZ",
+      "position": "Frontend Developer",
+      "duration": "2020 - 2022",
+      "location": "Remote",
+      "description": [
+        "Built responsive web applications using React and TypeScript",
+        "Collaborated with design team to implement pixel-perfect UIs",
+        "Optimized application performance achieving 95+ Lighthouse scores"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Digital Solutions Co.",
+      "position": "Junior Developer",
+      "duration": "2019 - 2020",
+      "location": "New York, NY",
+      "description": [
+        "Developed and maintained WordPress websites for clients",
+        "Created custom plugins and themes",
+        "Provided technical support and training to clients"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Stripe"],
+      "liveUrl": "https://ecommerce-demo.com",
+      "githubUrl": "https://github.com/arkahood/ecommerce-platform",
+      "image": "/projects/ecommerce.png",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "technologies": ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
+      "liveUrl": "https://taskmanager-demo.com",
+      "githubUrl": "https://github.com/arkahood/task-manager",
+      "image": "/projects/taskmanager.png",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A responsive weather dashboard that displays current weather and forecasts for multiple cities with beautiful data visualizations.",
+      "technologies": ["React", "TypeScript", "Chart.js", "OpenWeather API"],
+      "liveUrl": "https://weather-dashboard-demo.com",
+      "githubUrl": "https://github.com/arkahood/weather-dashboard",
+      "image": "/projects/weather.png",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Website",
+      "description": "A responsive portfolio website built with React and TypeScript, featuring smooth animations and modern design principles.",
+      "technologies": ["React", "TypeScript", "CSS3", "Vite"],
+      "liveUrl": "https://arkajitchoudhury.github.io/arkajitchoudhury",
+      "githubUrl": "https://github.com/arkahood/arkajitchoudhury",
+      "image": "/projects/portfolio.png",
+      "featured": false
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "duration": "2015 - 2019",
+      "gpa": "3.8/4.0"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    },
+    {
+      "id": 2,
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "date": "2022"
+    }
+  ]
+}

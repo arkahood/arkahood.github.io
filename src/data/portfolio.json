@@ -1,13 +1,12 @@
 {
   "personal": {
     "name": "Arkajit Choudhury",
-    "title": "Full Stack Developer",
+    "title": "Software Engineer",
     "email": "arkajitchoudhury54@gmail.com",
-    "phone": "+1 (555) 123-4567",
     "location": "India",
-    "linkedin": "https://linkedin.com/in/arkajitchoudhury",
+    "linkedin": "https://www.linkedin.com/in/arkajit-choudhury-0bba671a5/",
     "github": "https://github.com/arkahood",
-    "website": "https://arkajitchoudhury.dev",
+    "website": "https://arkahood.github.io/",
     "bio": "Passionate full-stack developer with expertise in modern web technologies. I love creating scalable applications and solving complex problems with clean, efficient code."
   },
   "skills": {
@@ -22,13 +21,15 @@
       "Vue.js"
     ],
     "backend": [
+      "Golang",
       "Node.js",
-      "Python",
-      "Express.js",
-      "FastAPI",
+      "Nestjs",
+      "JAVA",
       "PostgreSQL",
       "MongoDB",
-      "Redis"
+      "Redis",
+      "Kafka",
+      "RabbitMQ"
     ],
     "tools": [
       "Git",
@@ -36,8 +37,7 @@
       "AWS",
       "Vercel",
       "GitHub Actions",
-      "Jest",
-      "Cypress"
+      "DigitalOcean"
     ]
   },
   "experience": [
